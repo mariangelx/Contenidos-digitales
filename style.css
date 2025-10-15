@@ -1,0 +1,44 @@
+h1 {
+  color: #800020;
+  font-size: 45 px;
+  font-family: verdana;
+}
+body {
+  background-color: #eed9c4;
+  margin: 150px;
+}
+h2 {
+  color: #a18262;
+  font-size: 35 px;
+  font-family: verdana;
+}
+.ratoncito {
+  width: 45%;
+  height: 45%;
+}
+div {
+  width: 180px;
+  height: 180px;
+  background-color: purple;
+  border-radius: 50%;
+  position: relative;
+  top: 50px;
+  left: 320px;
+  animation-name: cambio-color;
+  animation-duration: 9s;
+  animation-interaction-count: infinite;
+}
+
+@keyframes cambio-color {
+  0% {
+    background-color: purple;
+  }
+  50% {
+    left: 600px;
+  }
+  100% {
+    background-color: orange;
+    top: 20px;
+    left: 0px;
+  }
+}
