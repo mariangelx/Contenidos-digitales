@@ -1,0 +1,27 @@
+div{
+  width: 180px;
+  height: 180px;
+  background-color: purple;
+  border-radius:50%;
+  position: relative;
+  top: 50px;
+  left: 320px;
+  animation-name:cambio-color;
+  animation-duration: 6s;
+  animation-interaction-count: infinite;
+}
+
+@keyframes cambio-color{
+  0%{
+    background-color: purple;
+  }
+  50%{
+    left: 600px;
+    
+  }
+  100%{
+    background-color: red;
+    top: 20px;
+    left: 0px;
+  }
+}
